@@ -60,9 +60,9 @@ function App() {
 
         <button className='btn' onClick={() => handleClick()}>Play Round</button>
         <div className='container'>
-          <div className='computer'>Computer's Move': &nbsp;&nbsp;{computerInput}</div>
+          <div className='computer'>Computer's Move: &nbsp;&nbsp;{computerInput}</div>
         </div>
-          <div className={showResult ? 'winner show-result' : 'winner'} >{result}</div>
+        <div className={showResult ? 'winner show-result' : 'winner'} >{result}</div>
       </div>
       <div className='rule-container'>
         <div className='rule-title'>Rules:</div>

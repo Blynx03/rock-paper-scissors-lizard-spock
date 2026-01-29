@@ -1,16 +1,93 @@
-# React + Vite
+# 🪨📄✂️🦎🖖 Rock Paper Scissors Lizard Spock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, single-page browser game inspired by the classic **Rock Paper Scissors**, extended with **Lizard** and **Spock** for added strategy and fun.
 
-Currently, two official plugins are available:
+This project focuses on clean game logic, clear UI feedback, and straightforward React state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎮 Game Overview
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Players select one of five options:
 
-## Expanding the ESLint configuration
+- Rock  
+- Paper  
+- Scissors  
+- Lizard  
+- Spock  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The computer randomly selects its move, and the result is instantly displayed based on predefined win / lose rules.
+
+---
+
+## 🎯 Objective
+
+- Make a selection
+- Click **Play**
+- Beat the computer using logical move interactions
+- Instantly see the computer’s move and the game result
+
+---
+
+## ✨ Core Features
+
+- 🖱️ One-click move selection
+- 🎲 Randomized computer choice
+- 🧠 Rule-based outcome calculation
+- 📢 Clear result messaging (Win / Lose / Draw)
+- 🔁 Instant replayability
+- 📱 Responsive, single-page layout
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** — Component-based UI
+- **JavaScript (ES6+)** — Game logic
+- **HTML5** — Semantic structure
+- **CSS3** — Styling and layout
+
+---
+
+## 📸 Game Screenshots
+
+- Title / Landing Screen  
+![Image](src/assets/rpsls-mainPage.png)
+- Player Selection Interface  
+![Image](src/assets/rpsls-player.png)
+- Play Button Interaction  
+![Image](src/assets/rpsls-playBtn.png)
+- Computer’s Move Display  
+![Image](src/assets/rpsls-computer.png)
+- Result Output Screen  
+![Image](src/assets/rpsls-result.png)
+
+---
+
+## 🎯 Project Purpose
+
+This project was built to:
+
+- Practice clean conditional game logic
+- Reinforce React state handling
+- Create a polished but lightweight interactive game
+- Serve as a reusable template for simple browser-based games
+
+---
+
+## 🚀 Possible Enhancements
+
+- Score tracking
+- Animations and transitions
+- Sound effects
+- Multiplayer mode
+- Mobile gesture support
+
+---
+
+## 🔗 Live & Source
+
+Check out the live demo and source code below:
+
+- **GitHub Repository:**  
+  https://github.com/Blynx03/rock-paper-scissors-lizard-spock
